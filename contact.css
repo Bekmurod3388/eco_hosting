@@ -1,0 +1,123 @@
+.main-blog {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 22px;
+    color: #fff;
+    font-family: sans-serif;
+}
+#back-top {
+    background: #F067FF;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(108,98,98,0.2);
+}
+
+/* START THE SECTION */
+/*LEFT */
+.contact-us {
+    background-color: #fff;
+}
+.contact-us h2 {
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #4C1E51;
+    margin-bottom: 70px;
+}
+
+.contact-input .message {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    outline: none;
+    padding-left: 21px;
+    padding-bottom: 250px;
+    border: 1px solid #e5e6e9;
+    font-size: 13px;
+    background: transparent;
+}
+.contact-input .name {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    padding-left: 21px;
+    border: 1px solid #e5e6e9;
+    outline: none;
+    font-size: 13px;
+    background: transparent;
+}
+.contact-input .subject {
+    width: 100%;
+   margin-bottom: 30px;
+    height: 50px;
+    padding-left: 21px;
+    border: 1px solid #e5e6e9;
+    outline: none;
+    font-size: 13px;
+    background: transparent;
+}
+.contact-input input:focus {
+    border: 1px solid #F067FF;
+}
+.send {
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+    color: #F067FF;
+    border: 1px solid #F067FF;
+    background: transparent;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    
+}
+.send:hover {
+    background-color:#F067FF;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+/*END LEFT */
+
+/* RIGHT */
+.contact-items {
+    margin-top: 205px;
+    margin-left: 100px;
+margin-bottom: 50px;
+}
+.contact-item {
+    display: flex;
+    text-align: left; 
+}
+.contact-item h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.contact-item p {
+    
+    font-family: cursive;
+    color: #8a8a8a;
+    margin-bottom: 30px;
+}
+.item-body {
+    margin-left: 20px;
+}
+
+
+
+/* END RIGHT */
+/* END THE SECTION */
